@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.header {
+    background: rgb(212, 202, 202);
+    height: 50px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-2 {
+    margin-top: 20px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid red;
+}
+.innerText {
+    margin-top: 20px;
+}
+
+
+.mid-container {
+    margin-top: 50px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.button {
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.inner-container {
+    margin-top: 15px;
+}
