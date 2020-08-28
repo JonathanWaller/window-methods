@@ -6,21 +6,6 @@ const Mid = () => {
     const [ inputValue, setInputValue ] = useState( );
     const [ buttonClicked, setButtonClicked ] = useState( 0 );
     
-    useEffect( () => {
-        window.onscroll = () => {
-            console.log('SCROLLING')
-            if ( window.scrollY ) {
-                console.log('Y-AXIS')
-            }
-            if( window.scrollX ) {
-                console.log('X-AXIS')
-            }
-        };
-        return () => {
-            window.onscroll = null;
-        };
-    }, [] );
-    
     const handleChange = ( e ) => {
         // window.localStorage.removeItem( 'name' );
         
@@ -76,10 +61,10 @@ const Mid = () => {
                     <button
                         className='button'
                         onClick={handleClick}
-                        // disabled={ 
-                        //     window.localStorage.clicked 
-                        //     && Number( window.localStorage.clicked ) > 3
-                        // }
+                        disabled={ 
+                            window.localStorage.clicked 
+                            && Number( window.localStorage.clicked ) > 3
+                        }
                     >
                         Try again
                     </button>

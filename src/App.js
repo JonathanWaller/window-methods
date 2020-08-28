@@ -9,17 +9,17 @@ import './App.css';
 
 function App() {
   // display window object 
-  console.log('WINDOWWW: ', window);
+  console.log('WINDOW OBJ: ', window);
   
   // display full screen height
-  console.log('SCREEN HEIGHT: ', window.screen.height)
+  // console.log('SCREEN HEIGHT: ', window.screen.height)
   
   // display window size
-  console.log('INNER WIDTH: ', window.innerWidth);
-  console.log('INNER HEIGHT: ', window.innerHeight );
+  // console.log('INNER WIDTH: ', window.innerWidth);
+  // console.log('INNER HEIGHT: ', window.innerHeight );
   
   // location
-  console.log('LOCATION: ', window.location)
+  // console.log('LOCATION: ', window.location)
     
   return (
     <div

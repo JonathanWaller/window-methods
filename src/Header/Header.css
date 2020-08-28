@@ -13,7 +13,7 @@
     margin-top: 20px;
     height: 200px;
     overflow-y: scroll;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .innerText {
     margin-top: 20px;
